@@ -1,0 +1,118 @@
+*
+    margin: 0
+    padding: 0
+body
+    background-image: url(landscape.png)
+.app 
+    top: 20%
+    left: 50%
+    transform: translate(-50%, -50%)
+    position: absolute
+    text-align: center
+    opacity: 1
+    transition: 0.2s ease
+.app h1 
+    color: #DDDDDD
+    font-size: 70px
+    font-family: 'Potta One', cursive
+    transition: 0.2s ease
+.app h1 .tracker 
+  color: #85144b
+.fas 
+    color: white
+#countryname
+    color: white
+    background-color: white
+    border: 3px solid #85144b
+    border-radius: 50px
+    padding: 10px
+    text-align: center
+    color: #85144b
+button
+    background-color: #85144b
+    border: 3px solid white
+    border-radius: 50px
+    padding: 10px
+    text-align: center
+    color: white
+    transition: 0.1s ease
+button:hover
+    transform: scale(1.1)
+.appinfo
+    position: fixed
+    font-size: 14px
+    color: white
+    padding: 20px
+    bottom: 0
+    right: 0
+.appResult
+    display: none
+    margin: 10px auto 10px auto
+    text-align: center
+    transition: 0.3s ease
+    opacity: 0
+.letInfo
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+.block 
+    border: 3px solid #85144b
+    background-color: white
+    color: #85144b
+    border-radius: 50px
+    margin: 10px
+    overflow: hidden
+    padding: 20px
+    font-family: 'Carter One', cursive
+
+.titles 
+    color: #85144b
+    font-size: 50px
+    font-family: 'Potta One', cursive
+    overflow: hidden
+.countryName
+    color: white
+.flagInfoS 
+    max-width: 100px
+    max-height: 100px
+.fa-exchange-alt
+    color: #85144b
+    font-size: 80px
+    transition: 0.1s ease
+.fa-exchange-alt:hover 
+    transform: scale(1.2)
+    color: white
+.frame 
+    width: 50vw
+    height: 10vh
+#map 
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    margin: 10px auto 10px auto
+    width: 60vw
+    height: 15vh
+    overflow: hidden
+iframe
+    width: 100%
+    height: 35%
+.mapouter
+    height: 100%
+    width: 100%
+@media (max-width: 700px) 
+    .app h1 
+        font-size: 40px
+    .titles
+        font-size: 40px
+        padding: 2px
+    .fa-exchange-alt
+        font-size: 10px
+    .block
+        font-size: 10px
+        spadding: 2px
+    .appResult
+        font-size: 10px
+    .letInfo
+        font-size: 10px
